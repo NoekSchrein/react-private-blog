@@ -1,0 +1,23 @@
+.blogpost {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.bloglist {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style-type: circle;
+    color: #ee5418;
+}
+
+.bloglist a, a:visited {
+    color: #ee5418;
+    text-decoration: none;
+}
+
+.bloglist a:hover {
+    text-decoration: underline;
+    color: #ee5418;
+}
